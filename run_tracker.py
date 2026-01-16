@@ -23,10 +23,10 @@ RUN_SINGLE_FILE = True   # True = single file, False = batch directory
 
 
 # --- Single-video mode (debugging) ---
-VIDEO_PATH = r"C:/Users/teaze/Videos/RayGroup/CCC_2025/Test/B.mov"   # e.g. r"C:\path\to\video.mp4"
+VIDEO_PATH = r"C:/Users/FOO/B.mov"   
 
 # --- Batch mode (production) ---
-VIDEO_DIR = r"C:/Users/teaze/Videos/RayGroup/CCC_2025/Test//"    # e.g. r"C:\path\to\video_directory"
+VIDEO_DIR = r"C:/Users/FOO/Videos/Test//"    
 
 VIDEO_EXTS = (".mp4", ".avi", ".mov", ".mkv")
 SHOW = True        # show visualization windows or not
@@ -87,3 +87,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
